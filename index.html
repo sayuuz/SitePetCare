@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar bg-dark border-bottom border-bottom-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                PetCare
+            </a>
+        </div>
+    </nav>
+    <!--Carrossel-->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide1"></button>
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide2"></button>
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banho.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Banho e Tosa</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/vet.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Medicos para seu pet</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/brinquedo.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Brinquedos de qualidade</h5>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--Conheça nossos alguma coisa-->
+    <div class="container text-center">
+        <h3 class="txtitulo">Conheça nossos produtos mais vendidos.</h3>
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img/produto8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--Agende os serviços-->
+      <div class="container text-center">
+        <h3 class="txtitulo">Agende nossos serviços.</h3>
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card mb-7">
+                <img src="img/agendbanho.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-secondary" type="button">Agende agora!</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card mb-7">
+                <img src="img/agendbanho.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-secondary" type="button">Marque a consulta do seu pet.</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
